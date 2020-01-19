@@ -1,4 +1,3 @@
-  
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jan 10 15:11:14 2020
@@ -29,9 +28,9 @@ df = client.query(query).to_dataframe()
 liquorcatlist = df['category_name'].unique().tolist()
 liquortcatlistdf = pd.DataFrame(liquorcatlist)
 #download to categorize in more summarized manner
-#liquortcatlistdf.to_csv("C:\\Users\\jjsch\\downloads\\liquorcats.csv")    
+#liquortcatlistdf.to_csv("C:\\Users\\jjsch\\downloads\\liquorcatsdl.csv")    
 #import
-liquortcatlistdf = pd.read_csv("C:\\Users\\jjsch\\downloads\\liquorcats.csv")
+liquortcatlistdf = pd.read_csv("C:\\Users\\jjschued\\Documents\\SMU\\7331 Machine Learning\\Github\\7331DataMiningNotebooks\\liquorcats.csv")
 
 df = pd.merge(df, liquortcatlistdf, how = 'left', on='category_name')
 
@@ -192,8 +191,19 @@ zipmap = [['50300', '50312'], ['712-2', ' 51529'],['50015', ' 50014'],['52004', 
 dfzipmap = pd.DataFrame(zipmap, columns = ['zipcode', 'tocode']) 
 #add new zips back to df
 # this didn't work! 
-df['zip_code'] = df['zip_code'].map(dfzipmap.set_index('zipcode')['tocode'])
+#df['zip_code'] = df['zip_code'].map(dfzipmap.set_index('zipcode')['tocode'])
 
+for row, index in df.iterrows():
+ if row['zip_code'] == '50300':
+     row['zip_code'] = '50312'
+ elif row['zip_code'] == '712-2': 
+     row['zip_code'] = '51529'
+ elif row['zip_code'] == '50015': 
+     row['zip_code'] ='50014'   
+ elif row['zip_code'] ==  '52004': 
+     row['zip_code'] = '52001'
+ elif row['zip_code'] ==  '52733':
+     row['zip_code'] ='52732'
 #join again
 liquorandcensusdf = pd.merge(df, censusdf, how = 'left', on='zip_code')
 

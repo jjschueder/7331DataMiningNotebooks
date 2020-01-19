@@ -28,8 +28,44 @@ query2 = "SELECT * FROM `bigquery-public-data.census_bureau_acs.zip_codes_2017_5
 
 
 censusdf = client.query(query2).to_dataframe()
+
+
 censusdf['zip_code'] = censusdf['geo_id']
 
+#which sex has more people
+censusdfcolumns = list(censusdf.columns)
+censussubsetcolumns = censusdfcolumns[14:30] + censusdfcolumns[55:70] +  censusdfcolumns[90:135] + censusdfcolumns[148:150] + censusdfcolumns[188:191] + censusdfcolumns[195:196] + censusdfcolumns[229:234]
+
+censusdf['majoritysex'] = censusdf[['male_pop', 'female_pop']].idxmax(axis=1)
+
+#which race is the majority
+censusracecolumns = censusdfcolumns[18:25]
+censusdf['majorityrace'] =  censusdf[censusracecolumns].idxmax(axis=1)
+liquorandcensusdf = pd.merge(df, censusdf, how = 'left', on='zip_code')
+
+#what income group has the most people
+censusracecolumns = censusdfcolumns[55:70]
+censusdf['largestincomegroup'] =  censusdf[censusracecolumns].idxmax(axis=1)
+
+#are most employed or unemployed
+censusemploycolumns = censusdfcolumns[148:150]
+censusdf['emplomenthealth'] =  censusdf[censusemploycolumns].idxmax(axis=1)
+
+#largest level of educational attainment
+censusemploycolumns = censusdfcolumns[229:234]
+censusdf['educationattainment'] =  censusdf[censusemploycolumns].idxmax(axis=1)
+
+
+#medain age grouping
+
+#poulation grouping
+
+#group median and income per captica
+
+#final census dataframe with subset of columns and groupings(limit furhter of subset columns)
+
+
+censusdf['zip_code'] = censusdf['geo_id']
 liquorandcensusdf = pd.merge(df, censusdf, how = 'left', on='zip_code')
 
 df.describe()
