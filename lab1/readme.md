@@ -1,8 +1,6 @@
 
 
-Category Points
-
-Description
+Category Points Description
 
 Business Understanding 10
 Describe the purpose of the data set you selected (i.e., why was this data collected in the first place?). Describe how you would define and measure the outcomes from the dataset. That is, why is this data important and how do you know if you have mined useful knowledge from the dataset? How would you measure the effectiveness of a good prediction algorithm? Be specific.
