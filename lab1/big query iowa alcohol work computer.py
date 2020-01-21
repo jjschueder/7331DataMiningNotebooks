@@ -25,7 +25,7 @@ query = "select * FROM `bigquery-public-data.iowa_liquor_sales.sales` where date
 df = client.query(query).to_dataframe()
     
 query2 = "SELECT * FROM `bigquery-public-data.census_bureau_acs.zip_codes_2017_5yr` -- where geo_id = '51012' LIMIT 1000"
-/Users/jjschued/Documents/Github/7331DataMiningNotebooks/lab1/
+#/Users/jjschued/Documents/Github/7331DataMiningNotebooks/lab1/
 
 censusdf = client.query(query2).to_dataframe()
 
