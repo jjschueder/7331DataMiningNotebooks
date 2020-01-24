@@ -1,0 +1,286 @@
+[33mcommit 2f087a8d706e010db0c9ff62d61f2446307590cc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 20:14:35 2020 -0600
+
+    reword problem
+    
+    reword problem
+
+[33mcommit 2713516be426ea5c78ff65aca00636befa061720[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 18:57:57 2020 -0600
+
+    more cleanup of encoding
+    
+    cleanup of encoding
+
+[33mcommit 98a4c6c6f2e800540d68256c1f06551716521b09[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 18:45:04 2020 -0600
+
+    clean so whole notebook runs in order of steps
+    
+    clean so whole notebook runs in order of steps
+
+[33mcommit 343aa4551e5bba37319ca7ab9b94cc9cc4e79145[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 18:22:59 2020 -0600
+
+    add all fixes needed for charts and encoding
+    
+    add all fixes needed for charts and encoding
+
+[33mcommit 9b180777732712465f072ca12dcafb538ba8d225[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 17:55:58 2020 -0600
+
+    add fixes for encoding
+    
+    add fixes for encoding
+
+[33mcommit e958ecdaeca9b2613068517d47ba30e626dc4970[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 16:33:57 2020 -0600
+
+    fixing encoding
+    
+    fixing encoding
+
+[33mcommit 58fdbf0f9d6ddc0e3f66e2f0b696c5a65ef0118b[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Thu Jan 23 10:08:26 2020 -0600
+
+    adjust files per Daniel
+    
+    adjust files to remove write csv
+
+[33mcommit cda5d70ad37f01f2039efada111cffc04ee83f59[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Wed Jan 22 21:26:16 2020 -0600
+
+    add
+    
+    add
+
+[33mcommit d8595419185392e0eea1f4e62799f79bfd878bd8[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Wed Jan 22 21:13:00 2020 -0600
+
+    add additional daniel changes
+    
+    add more
+
+[33mcommit cb4c9f41769b2389a53bf8f553739713abad02c6[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Wed Jan 22 21:09:06 2020 -0600
+
+    upload daniel updates
+    
+    upload daniel updates
+
+[33mcommit 6b2505d2d85b8cf6e16deb9c6cfd48b1364b2ca3[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 17:38:57 2020 -0600
+
+    add gm
+    
+    add gm
+
+[33mcommit e8c23cb5d01fcbeed6b6085edfdc034b54baa462[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 17:03:27 2020 -0600
+
+    more analysis
+    
+    more analysis
+
+[33mcommit e5ed5d31008bec445e5ce7e3b861ce0f7c06ed9e[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 16:55:22 2020 -0600
+
+    added whiskey specific analysis
+    
+    added whiskey specific analysis
+
+[33mcommit 543adf31f07befa59aebeef2169707d8ba3d2886[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 16:43:13 2020 -0600
+
+    add updates
+    
+    add updates
+
+[33mcommit d9f524589a7b3bec5d05515cfa5cd3aaf4edc3b3[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 08:42:44 2020 -0600
+
+    Update big query iowa alcohol work computer.py
+    
+    get two versions of file
+
+[33mcommit 53909984212a7aa1b3ad4af3e880ca42b078d79a[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 08:19:30 2020 -0600
+
+    Update LAB01-DataMining-Joe Copy.ipynb
+
+[33mcommit bad7c07f58ad2d126127b50efd53dcacc13aaab4[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 07:53:53 2020 -0600
+
+    add charts
+    
+    add charts
+
+[33mcommit 53c9c22f6dafb4abc8a6540d1b9c91a2e1c65cad[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 07:19:42 2020 -0600
+
+    added more plots
+    
+    added more plots
+
+[33mcommit 8bfd7d12f2ad122d89dc1d6599c3c693d31e8ab2[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Tue Jan 21 06:59:59 2020 -0600
+
+    sns plot finished
+    
+    sns plot finished
+
+[33mcommit 9e449c955a10c67ae82f9c91d9f0fee5c9a26853[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Mon Jan 20 18:04:21 2020 -0600
+
+    limit #of rows for easier processing
+    
+    limit #of rows for easier processing
+
+[33mcommit e6707f7317b78e17a9840b919af195f5da4df57a[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Mon Jan 20 17:52:05 2020 -0600
+
+    add charts
+    
+    add charts
+
+[33mcommit 3b27976111347760253ba7d1a860e2d007f46d46[m
+Author: joseph.schueder@collins.com <joseph.schueder@collins.com>
+Date:   Mon Jan 20 17:36:02 2020 -0600
+
+    change liquor cats
+    
+    change liquor cats
+
+[33mcommit 50aae7924b5e93a4e4e294e304a94895e443cfa1[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Mon Jan 20 12:48:38 2020 -0600
+
+    joe copy add
+    
+    add joe copy
+
+[33mcommit e309e09972dc1c4b6c880bd24564da860350ecd9[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 14:07:19 2020 -0600
+
+    added random 400k rows from 2019
+
+[33mcommit fd64ce745157f332d0e2e553ae855c83a23155ce[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:50:20 2020 -0600
+
+    added the getting connected
+
+[33mcommit 56c846238c787a2f1c55601747f79c6c392722a2[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:48:24 2020 -0600
+
+    removed test file
+
+[33mcommit b607cc93645b0d9ba6f4497b3454be8b15950771[m
+Merge: 447a034 bb14cbd
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:45:51 2020 -0600
+
+    Merge branch 'master' of https://github.com/jjschueder/7331DataMiningNotebooks
+
+[33mcommit 447a034945f69708caeaa765a662eafa057a7dcb[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:45:39 2020 -0600
+
+    added lab 1 pdf
+
+[33mcommit bb14cbd700e1f8950fe1f129232cf8d22fb1a928[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:43:39 2020 -0600
+
+    Add files via upload
+
+[33mcommit e9d650e208374692749ff600b7cbd1f53d0f8711[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:42:54 2020 -0600
+
+    removed gdoc
+
+[33mcommit c8383740b69e0eb764001d43659aef7608017e2d[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:36:30 2020 -0600
+
+    added gdoc
+
+[33mcommit fd3c828ce276e4e587343e17c14cabca9109ab40[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:29:49 2020 -0600
+
+    Update liquorcats.csv
+
+[33mcommit 8e9424355275003e040cfd29d2ca0dca77b94cd8[m
+Author: dclark18 <37518339+dclark18@users.noreply.github.com>
+Date:   Sun Jan 19 13:28:26 2020 -0500
+
+    Add files via upload
+
+[33mcommit 13225820c6981f42acd369a9a763c89c1d2f0a83[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:27:41 2020 -0600
+
+    Add files via upload
+
+[33mcommit 3e04b60fa2d8718e9920d7175d03d1f3020b10bb[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:25:27 2020 -0600
+
+    Update readme.md
+
+[33mcommit 60d44a237bb81d898827c4d4b7ef26e6ed31e50e[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:24:53 2020 -0600
+
+    Update readme.md
+
+[33mcommit f35ee0ccb527e54dc40059b7927fb9d4a6eeea1e[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:24:25 2020 -0600
+
+    Update readme.md
+
+[33mcommit ffeff5cf7ba9971a84fddc1657d7d4d563cc274b[m
+Author: Jeff Washburn <jwashburn_nw@nowwerx.com>
+Date:   Sun Jan 19 12:24:08 2020 -0600
+
+    added test file
+
+[33mcommit c4b2199dac18e6e7b5331f32a2811b205f237f9a[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:16:49 2020 -0600
+
+    Update readme.md
+
+[33mcommit fcd9f6269d39230f6fd609668269ac4759122dd7[m
+Author: jjschueder <31906289+jjschueder@users.noreply.github.com>
+Date:   Sun Jan 19 12:16:38 2020 -0600
+
+    Create readme.md
+
+[33mcommit ab30
