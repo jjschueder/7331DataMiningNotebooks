@@ -1,4 +1,4 @@
-Sunday, 03/08/2020 by 11:59 PM.  
+Due: Sunday, 03/08/2020 by 11:59 PM.  
 
 Category 	Available 	Requirements  
 Total Points 	100  
